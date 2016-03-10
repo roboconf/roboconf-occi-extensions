@@ -13,3 +13,4 @@ They were built with the [OCCIware studio](http://occiware.github.io).
 See also http://roboconf.net/en/developer-guide/occi-model.html for more details.
 
 * Roboconf graph: an extension to generate graph(s) files.
+* Roboconf instances: an extension to generate instances files (and that depends on the graph extension).

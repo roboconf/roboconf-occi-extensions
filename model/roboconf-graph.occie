@@ -48,7 +48,7 @@
     </attributes>
     <parent href="platform:/plugin/org.occiware.clouddesigner.occi/model/Core.occie#//@kinds[term='resource']"/>
   </kinds>
-  <kinds term="RoboconfOwnsLink" scheme="http://roboconf.net/graph#">
+  <kinds term="RoboconfOwnerLink" scheme="http://roboconf.net/graph#">
     <parent href="platform:/plugin/org.occiware.clouddesigner.occi/model/Core.occie#//@kinds[term='link']"/>
   </kinds>
 </occi:Extension>
