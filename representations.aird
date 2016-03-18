@@ -10,6 +10,7 @@
   <semanticResources>platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.genmodel</semanticResources>
   <semanticResources>file://home/vzurczak/workspaces/occiware/occi-extensions-for-roboconf/model/roboconf-graph.ecore</semanticResources>
   <semanticResources>platform:/plugin/org.eclipse.emf.ecore/model/Ecore.genmodel</semanticResources>
+  <semanticResources>model/roboconf-graph.ecore</semanticResources>
   <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_TuB9QORbEeWp25BUPDvgow">
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_Tv_FEORbEeWp25BUPDvgow" name="Roboconf Graph">
       <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Tv_FEeRbEeWp25BUPDvgow" source="DANNOTATION_CUSTOMIZATION_KEY">

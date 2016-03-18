@@ -34,6 +34,9 @@
     <attributes name="value">
       <type href="platform:/plugin/org.occiware.clouddesigner.occi/model/Core.occie#//@types.0"/>
     </attributes>
+    <attributes name="publicAlias">
+      <type href="platform:/plugin/org.occiware.clouddesigner.occi/model/Core.occie#//@types.0"/>
+    </attributes>
     <parent href="platform:/plugin/org.occiware.clouddesigner.occi/model/Core.occie#//@kinds[term='resource']"/>
   </kinds>
   <kinds term="RoboconfImportedVariable" scheme="http://roboconf.net/graph#">
