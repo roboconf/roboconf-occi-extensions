@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<occi:Extension xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:occi="http://schemas.ogf.org/occi" name="RoboconfGraph" scheme="http://roboconf.net/graph#">
+<occi:Extension xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:occi="http://schemas.ogf.org/occi/core/ecore" name="RoboconfGraph" scheme="http://roboconf.net/graph#">
   <import href="platform:/plugin/org.occiware.clouddesigner.occi/model/Core.occie#/"/>
   <kinds term="RoboconfComponent" scheme="http://roboconf.net/graph#" parent="//@kinds[term='RoboconfFacet']">
     <attributes name="installerName">
@@ -12,7 +12,7 @@
     </attributes>
     <parent href="platform:/plugin/org.occiware.clouddesigner.occi/model/Core.occie#//@kinds[term='resource']"/>
   </kinds>
-  <kinds term="ApplicationTemplate" scheme="http://roboconf.net/graph#">
+  <kinds term="RoboconfApplicationTemplate" scheme="http://roboconf.net/graph#">
     <attributes name="name">
       <type href="platform:/plugin/org.occiware.clouddesigner.occi/model/Core.occie#//@types.0"/>
     </attributes>
@@ -52,6 +52,15 @@
     <parent href="platform:/plugin/org.occiware.clouddesigner.occi/model/Core.occie#//@kinds[term='resource']"/>
   </kinds>
   <kinds term="RoboconfOwnerLink" scheme="http://roboconf.net/graph#">
+    <parent href="platform:/plugin/org.occiware.clouddesigner.occi/model/Core.occie#//@kinds[term='link']"/>
+  </kinds>
+  <kinds term="RoboconfInheritanceLink" scheme="http://roboconf.net/graph#">
+    <parent href="platform:/plugin/org.occiware.clouddesigner.occi/model/Core.occie#//@kinds[term='link']"/>
+  </kinds>
+  <kinds term="RoboconfChildrenLink" scheme="http://roboconf.net/graph#">
+    <parent href="platform:/plugin/org.occiware.clouddesigner.occi/model/Core.occie#//@kinds[term='link']"/>
+  </kinds>
+  <kinds term="RoboconfRuntimeLink" scheme="http://roboconf.net/graph#">
     <parent href="platform:/plugin/org.occiware.clouddesigner.occi/model/Core.occie#//@kinds[term='link']"/>
   </kinds>
 </occi:Extension>

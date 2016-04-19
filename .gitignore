@@ -1,2 +1,4 @@
 src-gen
-model/*ecore
+model/*.ecore
+model/*.genmodel
+/bin/
