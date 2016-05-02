@@ -24,6 +24,18 @@
     </attributes>
     <parent href="http://schemas.ogf.org/occi/core#//@kinds[term='resource']"/>
   </kinds>
+  <kinds term="RoboconfImportedVariable" scheme="http://roboconf.net/graph#">
+    <attributes name="name">
+      <type href="http://schemas.ogf.org/occi/core#//@types.0"/>
+    </attributes>
+    <attributes name="optional">
+      <type href="http://schemas.ogf.org/occi/core#//@types.1"/>
+    </attributes>
+    <attributes name="external">
+      <type href="http://schemas.ogf.org/occi/core#//@types.1"/>
+    </attributes>
+    <parent href="http://schemas.ogf.org/occi/core#//@kinds[term='resource']"/>
+  </kinds>
   <kinds term="RoboconfOwnerLink" scheme="http://roboconf.net/graph#">
     <parent href="http://schemas.ogf.org/occi/core#//@kinds[term='link']"/>
   </kinds>
@@ -34,15 +46,6 @@
     <parent href="http://schemas.ogf.org/occi/core#//@kinds[term='link']"/>
   </kinds>
   <kinds term="RoboconfRuntimeLink" scheme="http://roboconf.net/graph#">
-    <attributes name="name">
-      <type href="http://schemas.ogf.org/occi/core#//@types.0"/>
-    </attributes>
-    <attributes name="optional">
-      <type href="http://schemas.ogf.org/occi/core#//@types.1"/>
-    </attributes>
-    <attributes name="external">
-      <type href="http://schemas.ogf.org/occi/core#//@types.1"/>
-    </attributes>
     <parent href="http://schemas.ogf.org/occi/core#//@kinds[term='link']"/>
   </kinds>
 </occi:Extension>
